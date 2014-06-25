@@ -4,6 +4,9 @@
 }
 
 
+  /*********************     Responsive  - First Breakpoint      **********************/
+  
+  
 @media screen and (min-width: 480px) {
   
   /*********************
@@ -23,6 +26,10 @@ Larger carousel
   display: inline;
 }
 
+
+  /*********************     Responsive  - First Breakpoint      **********************/
+  
+  
 @media screen and (min-width: 660px) {
 
       /*********************
