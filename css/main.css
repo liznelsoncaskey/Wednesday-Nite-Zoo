@@ -1,3 +1,9 @@
+
+.carousel_large{
+  display: hidden;
+}
+
+
 @media screen and (min-width: 480px) {
   
   /*********************
@@ -9,6 +15,13 @@ Navbar Left
 Larger carousel
   **********************/
 
+.carousel_small{
+  display: hidden;
+  }
+
+.carousel_large{
+  display: inline;
+}
 
 @media screen and (min-width: 660px) {
 
