@@ -1,0 +1,37 @@
+
+.carousel_large{
+  display: hidden;
+}
+
+
+  /*********************     Responsive  - First Breakpoint      **********************/
+  
+  
+@media screen and (min-width: 480px) {
+  
+  /*********************
+Navbar Left
+  **********************/
+
+
+  /*********************
+Larger carousel
+  **********************/
+
+.carousel_small{
+  display: hidden;
+  }
+
+.carousel_large{
+  display: inline;
+}
+
+
+  /*********************     Responsive  - First Breakpoint      **********************/
+  
+  
+@media screen and (min-width: 660px) {
+
+      /*********************
+  PAGE: header
+  **********************/
