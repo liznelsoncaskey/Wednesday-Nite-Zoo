@@ -11,37 +11,58 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
+	
+	<!-- **********Navigation Sidebar********** -->
+	
 		<header class="menu">
-			<a href="main.html" class="logo">Logo Here</a>
+			<a href="main.html" class="logo"><img src="img/ourzoo_LouisvilleZooLogo.jpg"></img></a>
 			<nav>
 				<ul class="nav">
 					<li><a href="">Visit</a></li>
+					<li><a href="">Zoo Map</a></li>
+					<li><a href="">Street Map</a></li>
+					<li><a href="">Membership</a></li>
 					<li><a href="">Animals</a></li>
 					<li><a href="">About</a></li>
 				</ul>
 			</nav>
 		</header>
+	
+	<!-- ***************Carousel ************** -->
+	
 		<div class="wrapper">
-			<section class="slideshow-large promo">
+			<section class="slideshow_large promo">
 				<div class="your-class">
 				  <div>your content</div>
 				  <div>your content</div>
 				  <div>your content</div>
 				</div>
 			</section>
-			<section class="slideshow-small promo">
+			<section class="slideshow_small promo">
 				<div class="your-class">
 				  <div>your content</div>
 				  <div>your content</div>
 				  <div>your content</div>
 				</div>
 			</section>
-			<section class="primary">
-				<p>Calendar</p>
-				<p>Plan Visit, Maps</p>
-				<p>Multimedia and Videos</p>
-			</section>
+	
+	<!-- *************** Main Content Area ****************-->
+	
+			<div class="primary">
+				<div class="calendar">
+					<p>Calendar</p>					
+				</div>
+				<div class="Plan_Visit">
+					<p>Plan Visit, Maps</p>					
+				</div>
+				<div class="Media">
+					<p>Multimedia and Videos</p>					
+				</div>
+			</div>
 		</div>
+		
+	<!-- *************** Footer ****************-->
+	
 		<footer>
 			<div class="sponsor_links">
 				<p>Sponsors</p>
@@ -56,25 +77,28 @@
 				<p>Contact Information Here</p>
 				<a href="">Sitemap</a>
 			</div>
-			<div>
+			<div class="social">
 				<p>Connect With Us</p>
-				<ul class="social_media">
+				<ul class="social_links">
 					<li>Twitter</li>
 					<li>Facebook</li>
 					<li>Instagram</li>
 				</ul>
 			</div>
 		</footer>
+		
+	<!-- *************** End Footer****************-->
+	
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 
 		<script type="text/javascript">
-	        $(document).ready(function(){
-	            $('.your-class').slick({
-	                setting-name: setting-value
-	            });
-	        });
-    	</script>
+		        $(document).ready(function(){
+		            $('.your-class').slick({
+		                setting-name: setting-value
+		            });
+		        });
+    		</script>
 	</body>
 </html>
