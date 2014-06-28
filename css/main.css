@@ -1,6 +1,27 @@
 
-.carousel_large{
-  display: hidden;
+.nav {
+  background-color: lightgray;
+}
+
+.slideshow_large {
+  visibility: hidden;
+  background-color: darkgray;
+}
+
+.calendar {
+  background-color: coral;
+}
+
+.Plan_Visit {
+  background-color: darkgray;
+}
+
+.Media {
+  background-color: darksalmon;
+}
+
+.footer {
+  background-color: gold;
 }
 
 
@@ -17,13 +38,12 @@ Navbar Left
   /*********************
 Larger carousel
   **********************/
-
-.carousel_small{
-  display: hidden;
+.slideshow_small{
+  visibility: hidden;
   }
 
-.carousel_large{
-  display: inline;
+.slideshow_large{
+  visibility: visible;
 }
 
 
