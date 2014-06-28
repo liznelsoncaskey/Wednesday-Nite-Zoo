@@ -1,4 +1,32 @@
 
+.nav {
+  background-color: lightgray;
+}
+
+.slideshow_large {
+  visibility: hidden;
+  background-color: darkgray;
+}
+
+.calendar {
+  background-color: coral;
+}
+
+.Plan_Visit {
+  background-color: darkgray;
+}
+
+.Media {
+  background-color: darksalmon;
+}
+
+.footer {
+  background-color: gold;
+}
+
+
+
+
 .carousel_large{
   display: hidden;
 }
