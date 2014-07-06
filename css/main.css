@@ -4,7 +4,6 @@
 }
 
 .slideshow_large {
-  visibility: hidden;
   background-color: darkgray;
 }
 
@@ -38,17 +37,6 @@
   .nav {
       border-right: 3px solid #e78639;
       height: 100%;
-  }
-
-    /*********************
-  Larger carousel
-    **********************/
-  .slideshow_small{
-    visibility: hidden;
-    }
-  
-  .slideshow_large{
-    visibility: visible;
   }
 
 }
