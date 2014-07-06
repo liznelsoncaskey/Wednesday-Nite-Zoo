@@ -24,34 +24,44 @@
   background-color: #83b03e;
 }
 
-
-  /*********************     Responsive  - First Breakpoint      **********************/
-  
-  
-@media screen and (min-width: 480px) {
-  
-  /*********************
-Navbar Left
-  **********************/
-
-
-  /*********************
-Larger carousel
-  **********************/
-.slideshow_small{
-  visibility: hidden;
-  }
-
-.slideshow_large{
-  visibility: visible;
+.side-nav li a:not(.button),
+.primary,
+.footer {
+  color: #fff;
 }
 
-
   /*********************     Responsive  - First Breakpoint      **********************/
   
   
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 640px) {
+  
+  .nav {
+      border-right: 3px solid #e78639;
+      height: 100%;
+  }
 
-      /*********************
-  PAGE: header
-  **********************/
+    /*********************
+  Larger carousel
+    **********************/
+  .slideshow_small{
+    visibility: hidden;
+    }
+  
+  .slideshow_large{
+    visibility: visible;
+  }
+
+}
+  /*********************     Responsive  - First Breakpoint      **********************/
+  
+  
+@media screen and (min-width: 1025px) {
+    .Plan_Visit {
+    border-left: 5px solid #fff;
+    border-right: 4px solid #fff;;
+  }
+
+  .footer {
+    border-top: solid 5px #fff;
+  }
+}
