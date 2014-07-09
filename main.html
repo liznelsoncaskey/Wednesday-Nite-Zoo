@@ -33,18 +33,24 @@
 	
 			<div class="wrapper large-9 medium-8 columns">
 				<div class="">	
-					<section class="slideshow_large promo hide-for-small">
+					<section class="slideshow_large hide-for-small">
 						<div class="slides">
-						  <div>Big Slide 1</div>
-						  <div>Big Slide 2</div>
-						  <div>Big Slide 3</div>
+							 <div>
+							  	<img src="img/sign2013.png">
+							  </div>
+							  <div>
+							  	<img src="img/splashpark-real-05.jpg">
+							  </div>
+							  <div>
+							  	<img src="img/splashpark-real-04.jpg">
+							  </div>
 						</div>
 					</section>
 					<section class="slideshow_small promo hide-for-medium-up">
-						<div class="small_slideshow">
-						  <div>Small Slide 1</div>
-						  <div>Small Slide 2</div>
-						  <div>Small Slide 3</div>
+						<div class="slides">
+						  <div><img src="img/sign2013.png"></div>
+						  <div><img src="img/splashpark-real-05.jpg"></div>
+						  <div><img src="img/splashpark-real-04.jpg"></div>
 						</div>
 					</section>
 				</div>
@@ -99,13 +105,11 @@
 		
 		<script type="text/javascript">
 		       $(document).ready(function(){
-		           $('.promo').slick({
+		           $('.slides').slick({
 				dots: true,
 				infinite: true,
 				speed: 500,
-  				fade: true,
-  				arrows: true,
-  				autoplay: true,
+				arrows: false
 		            });
 		        });
 		</script>
