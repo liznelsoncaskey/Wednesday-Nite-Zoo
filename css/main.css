@@ -29,6 +29,12 @@
   color: #fff;
 }
 
+.slides img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
   /*********************     Responsive  - First Breakpoint      **********************/
   
   
