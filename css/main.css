@@ -27,7 +27,7 @@
   background-color: #83b03e;
 }
 
-.side-nav li a:not(.button),
+.sidebar-nav li a:not(.button),
 .primary,
 .footer {
   color: #fff;
