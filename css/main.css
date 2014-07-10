@@ -75,7 +75,7 @@
   /*********************     Responsive  - Second Breakpoint      **********************/
   
   
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 768px) {
   .Plan_Visit {
     border-left: 5px solid #fff;
     border-right: 4px solid #fff;;
