@@ -1,6 +1,10 @@
 
-.nav {
+  /*********************     color styling      **********************/
+
+.nav,
+.sidebar-nav {
   background-color: #fec573;
+  list-style: none;
 }
 
 .slideshow_large {
@@ -29,11 +33,6 @@
   color: #fff;
 }
 
-.slides img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
   /*********************     Responsive  - First Breakpoint      **********************/
   
@@ -41,8 +40,35 @@
 @media screen and (min-width: 640px) {
   
   .nav {
-      border-right: 3px solid #e78639;
-      height: 100%;
+    border-right: 3px solid #e78639;
+  }
+  
+  .wrapper {
+    padding-left: 275px;
+  }
+
+  #sidebar-wrapper {
+    margin-left: -275px;
+    left: 275px;
+    width: 275px;
+    background: #fec573;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+  }
+
+  #page-content-wrapper {
+    width: 100%;
+  }
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 275px;   
+    margin: 0;
+    padding: 0;
   }
 
 }
@@ -50,12 +76,23 @@
   
   
 @media screen and (min-width: 1025px) {
-    .Plan_Visit {
+  .Plan_Visit {
     border-left: 5px solid #fff;
     border-right: 4px solid #fff;;
   }
 
   .footer {
     border-top: solid 5px #fff;
+    height: 150px;
   }
+  
+  .primary {
+    height: 250px;
+  }
+
+  .carousel {
+    height: 300px;
+  }
+  
 }
+
