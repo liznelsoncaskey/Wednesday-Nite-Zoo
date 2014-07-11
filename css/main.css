@@ -1,5 +1,8 @@
 
   /*********************     color styling      **********************/
+.wrapper {
+  padding-left: 15px;  
+}
 
 .sidebar-wrapper {
   background-color: #fec573;
