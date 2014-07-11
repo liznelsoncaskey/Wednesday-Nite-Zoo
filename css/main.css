@@ -94,7 +94,7 @@
     height: 300px;
   }
   
-        /* Swuishy Nav */
+        /* Squishy Nav */
 
   .wrapper {
     padding-left: 21%;
@@ -104,10 +104,6 @@
     margin-left: -21%;
     left: 21%;
     width: 21%;
-  }
-
-  .sidebar-nav {
-    width: 21%;   
   }
 
 }
