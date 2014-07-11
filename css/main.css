@@ -44,13 +44,13 @@
   }
   
   .wrapper {
-    padding-left: 21%;
+    padding-left: 161px;
   }
 
   #sidebar-wrapper {
-    margin-left: -21%;
-    left: 21%;
-    width: 21%;
+    margin-left: -161px;
+    left: 161px;
+    width: 161px;
     background: #fec573;
     position: fixed;
     height: 100%;
@@ -66,7 +66,7 @@
   .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 21%;   
+    width: 161px;   
     margin: 0;
     padding: 0;
   }
@@ -94,5 +94,21 @@
     height: 300px;
   }
   
+        /* Swuishy Nav */
+
+  .wrapper {
+    padding-left: 21%;
+  }
+
+  #sidebar-wrapper {
+    margin-left: -21%;
+    left: 21%;
+    width: 21%;
+  }
+
+  .sidebar-nav {
+    width: 21%;   
+  }
+
 }
 
