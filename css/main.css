@@ -9,8 +9,9 @@
   list-style: none;
 }
 
-.slideshow_large {
-  background-color: darkgray;
+#myCarousel,
+.navbar-default {
+  margin-bottom: 0px;
 }
 
 .calendar {
