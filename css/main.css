@@ -58,7 +58,7 @@
     left: 161px;
     width: 161px;
     background: #fec573;
-    background-image: url('nav_zebra_bkg.png');
+    background-image: url('../img/nav_zebra_bkg.png');
     position: fixed;
     height: 100%;
     overflow-y: auto;
