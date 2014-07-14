@@ -14,6 +14,15 @@
   margin-bottom: 0px;
 }
 
+.row-fluid {
+  margin-bottom: -1px;
+}
+
+.navbar-default {
+  border-top: 10px solid #bef46b;
+  background-color: #83b03e
+}
+
 .calendar {
   background-color: #7e2880;
 }
